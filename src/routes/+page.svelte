@@ -10,7 +10,7 @@
 				<code class="code">/src/routes/+page.svelte</code> - this page, you can replace the contents
 			</li>
 		</ul> -->
-		<form action="" method="post">
+		<form action="https://demo.grm.asia/api/emailtransaction" method="post">
 			<div class="flex items-center flex-wrap" style="width: 100%">
 				<div class="mt-4 mx-3 mx-auto">
 					<img src="Snaptech.png" width="100%"/>
@@ -18,10 +18,10 @@
 				<div style="width: 100%" class="mt-4">
 					<div class="flex justify-center items-center">
 						<div>
-							<input class="input" style="width: 100%" type="text" placeholder="Email Address" />
+							<input class="input" style="width: 100%" name="email" type="text" placeholder="Email Address" />
 						</div>
 						<div>
-							<button type="button" class="m-4 btn variant-filled">Send</button>
+							<button type="submit" class="m-4 btn variant-filled">Send</button>
 						</div>
 					</div>
 				</div>
